@@ -1,0 +1,32 @@
+<!--해당문서가 html5 버전으로 작성되었음을 정의-->
+<!DOCTYPE html>
+
+<!--html 태그: 해당문서가 html문서임을 정의-->
+<html>
+	<!--head 태그: 해당 문서의 정보-->
+	<head>
+	</head>
+	
+	<!--body 태그: 실제 브라우저에 표시되는 내용-->
+	<body>
+		<!--hn 태그: 제목표시줄-->
+		<h1>제목</h1>
+		<h2>제목</h2>
+		<h3>제목</h3>
+		<h4>제목</h4>
+		<h5>제목</h5>
+		<h6>제목</h6>
+		
+		<!--a 태그: 하이퍼링크 삽입-->
+		<!--href 속성: 연결될 링크의 url-->
+		<!--target 속성: 창이 열리는 방식(새 창에서/ 현재 창에서) -->
+		<a href="www.hufs.ac.kr" target="_blank">한국외대</a><br>
+		<a href="www.hufs.ac.kr" target="_self">한국외대</a><br>
+		
+		<!-- 이미지 태그: 이미지를 삽입 -->
+		<!-- src 속성: 이미지 파일 이름 -->
+		<!-- alt 속성: 이미지 파일이 없을 때, 대체 문자열 지정 -->
+		<!-- width, height 속성: 가로, 세로 길이 -->
+		<img src="logo.png" alt="로고 이미지" width="10" height="10"><br>
+	</body>
+</html>
