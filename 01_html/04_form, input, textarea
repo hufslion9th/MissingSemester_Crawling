@@ -1,0 +1,31 @@
+<!--해당문서가 html5 버전으로 작성되었음을 정의-->
+<!DOCTYPE html>
+
+<!--html 태그: 해당문서가 html문서임을 정의-->
+<html>
+	<!--head 태그: 해당 문서의 정보-->
+	<head>
+	</head>
+	
+	<!--body 태그: 실제 브라우저에 표시되는 내용-->
+	<body>
+		<!-- form 태그: 폼을 입력받아 서버로 전송함 -->
+		<!-- method 속성:	http 통신방식 -->
+		<!-- action 속성: 폼을 입력받이 처리할 서버의 주소 -->
+		<form method="get" action="서버 스크립트 파일">
+				<!-- input 태그: 내용을 입력할수 있는 입력상자 생성 -->
+				<!-- type 속성: 속성값을 text로 주면 한 줄짜리 입력상자 생성 / password로 주면 비밀번호 입력상자 생성 / submit으로 주면 제출 버튼 생성 -->
+				<!-- name 속성: 서버로 보낼 때, 해당 태그의 이름 설정 -->
+				제목:<input type="text" name="title"><br>
+				작성자:<input type="text" name="writer"><br>
+				제목:<input type="password" name="password"><br>
+
+				<!-- textarea 태그: 여러 줄짜리 문자열 입력상자 생성 -->
+				<!-- cols, rows 속성: 열과 행의 길이 설정 -->
+				<!-- 내용을 넣으면 textarea 입력상자의 기본 텍스트 설정 가능 -->
+				내용:<textarea name="content" cols="20" rows="5">default 내용</textarea>
+
+				<input type="submit">
+		</form>
+	</body>
+</html>
